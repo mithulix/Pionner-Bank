@@ -1,0 +1,39 @@
+body { font-family: 'Cantarell', sans-serif;}
+
+#login-area, .depoWithdraw, #transaction-area {
+    margin-top: 7%; background-color: #ffffff; border-radius: 1rem; 
+    box-shadow: .4rem .4rem .7rem #e6e6e6, -.4rem -.4rem .7rem #ebebeb;
+    padding:2rem; color: #585858;
+}
+
+.btn { background-color: #ff4382; color: white; margin-top: .5rem; text-transform: uppercase;}
+
+.btn2 { margin-top: 1.3rem;}
+
+h2 { padding: .5rem 0 1.5rem 0; text-transform: uppercase; color: #585858;}
+
+.form-control { border: 1.8px solid #999999;}
+
+input::placeholder {opacity: .5 !important; color: transparent;}
+
+input:focus::placeholder { color: transparent;}
+
+.submit { display: flex; width: 555px;}
+
+.or { margin: 2% 3% 0 7%; font-size: 1.5rem; text-transform: none;}
+
+
+hr { margin: -1rem 0 2rem 0;}
+
+
+
+
+/* transaction area */
+#transaction-area { margin-top: 1%; display: none; padding-top: 1rem;}
+
+.status { padding:.5rem; margin: 1rem 0;}
+
+.area1, .area3 { background-color: #ff4382; border-radius: 1rem;}
+
+.area2 { background-color: #a85cff; border-radius: 1rem;}
+
